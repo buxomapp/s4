@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.s4.buxomapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.NEARBY_WIFI_DEVICES"
+        android:usesPermissionFlags="neverForLocation" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:name=".TuyaSmartApp"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Iot"
+        tools:node="replace"
+        tools:targetApi="31">
+        <activity
+            android:name=".loginapp"
+            android:exported="false" />
+        <activity
+            android:name=".vrifaypage"
+            android:exported="false" />
+
+        <meta-data
+            android:name="TUYA_SMART_APPKEY"
+            android:value="etk9nxwth8ahq7fg7t5x" />
+        <meta-data
+            android:name="TUYA_SMART_SECRET"
+            android:value="tkafsrwxwapvjwkuryr5haqtpnmhnfp7" />
+
+        <activity
+            android:name=".rooms"
+            android:exported="false" />
+        <activity
+            android:name=".lighpage"
+            android:exported="false" />
+        <activity
+            android:name=".devoislist"
+            android:exported="false" />
+        <activity
+            android:name=".catgorys"
+            android:exported="false" />
+        <activity
+            android:name=".addroom"
+            android:exported="false" />
+        <activity
+            android:name=".locations"
+            android:exported="false" />
+        <activity
+            android:name=".alldevicelist"
+            android:exported="false" />
+        <activity
+            android:name=".splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="@string/app_name" />
+    </application>
+
+</manifest>

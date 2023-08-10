@@ -44,6 +44,18 @@
             android:name=".rooms"
             android:exported="false" />
         <activity
+            android:name=".zigbee.gateway.DeviceConfigZbGatewayActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".zigbee.sub.DeviceConfigZbSubDeviceActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".zigbee.sub.DeviceConfigChooseZbGatewayActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
             android:name=".lighpage"
             android:exported="false" />
         <activity

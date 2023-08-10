@@ -44,6 +44,10 @@
         <entry key="..\:/androidApp/iot/app/src/main/res/layout/activity_vrifaypage.xml" value="0.3625" />
         <entry key="..\:/androidApp/iot/app/src/main/res/layout/addroom.xml" value="0.22826086956521738" />
         <entry key="..\:/androidApp/iot/app/src/main/res/layout/catgoryofdivose.xml" value="0.22826086956521738" />
+        <entry key="..\:/androidApp/iot/app/src/main/res/layout/device_config_info_hint_activity.xml" value="0.1421875" />
+        <entry key="..\:/androidApp/iot/app/src/main/res/layout/device_config_zb_choose_gateway_activity.xml" value="0.1421875" />
+        <entry key="..\:/androidApp/iot/app/src/main/res/layout/device_config_zb_sub_device_activity.xml" value="0.4" />
+        <entry key="..\:/androidApp/iot/app/src/main/res/layout/device_zb_gateway_list.xml" value="0.1421875" />
         <entry key="..\:/androidApp/iot/app/src/main/res/layout/fragment_dashboard.xml" value="0.18541666666666667" />
         <entry key="..\:/androidApp/iot/app/src/main/res/layout/fragment_home.xml" value="0.18541666666666667" />
         <entry key="..\:/androidApp/iot/app/src/main/res/layout/fragment_notifications.xml" value="0.18541666666666667" />
